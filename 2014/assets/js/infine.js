@@ -1,3 +1,35 @@
+var speakerAImgMap = {
+		// 정성용
+		'bungubbang57':'assets/profile/bungubbang57@gmail.com.png',
+		// 최윤석
+		'ethdemor':'assets/profile/ethdemor@gmail.com.png',
+		// 김제준
+		'dosajun':'assets/profile/dosajun@gmail.com.png',
+		// 정용식
+		'sunphiz':'assets/profile/sunphiz@gmail.com.png',
+		// 강대권
+		'daekwon.kang':'assets/profile/daekwon.kang@gmail.com.png',
+		// 최용은
+		'choiye84':'assets/profile/choiye84@gmail.com.png',
+		// 김강우
+		'kangwoo':'assets/profile/kangwoo@gmail.com.png'
+	},
+	speakerBImgMap = {
+		// 박성철
+		'gyumee':'assets/profile/gyumee@gmail.com.png',
+		// 이연복
+		'lyb1495':'assets/profile/lyb1495@helloworlds.co.kr.png',
+		// 정상혁
+		'benelog':'assets/profile/benelog@gmail.com.png',
+		// 강규영
+		'kangkyuyoung':'assets/profile/noprofile.png',
+		// 안영회
+		'ahnyounghoe':'assets/profile/ahnyounghoe@gmail.com.png',
+		// 박찬욱
+		'chanwook.god':'assets/profile/chanwook.god@gmail.com.png',
+		// 강지훈
+		'ktsh0133':'assets/profile/ktsh0133@gmail.com.png'
+	};
 $(document).ready(function() {
     var start = new Date(2014, 3, 25, 0, 0, 0, 0);
     var end = new Date(2014, 4, 31, 12, 0, 0, 0);
@@ -59,7 +91,9 @@ $(document).ready(function() {
     $('.parallax-second').parallax("50%", 0.05);
     $('.parallax-third').parallax("50%", 0.05);
 
-	$('a[data-toggle="tab"]').on('shown', function (e) {});
+	$('a[data-toggle="tab"]').on('shown', function (e) {
+		imgInsert(speakerBImgMap);
+	});
 
 	$('input, textarea').placeholder();
 
@@ -130,17 +164,26 @@ $(document).ready(function() {
 
 	(function() {
 		if ( $('#googleMap').length == 0 ) {
-		    var script = document.createElement("script");
-		    script.src = "https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false&callback=initialize";
-		    script.type = "text/javascript";
-		    script.id = "googleMap";
-		    $("head")[0].appendChild(script);
+			$('<script/>', {
+				src: "https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false&callback=initialize",
+				type: 'text/javascript',
+				id: 'googleMap'
+			}).appendTo('body');
 		}
 		else {
 		    initialize();
 		}
 	})();
+
+	setTimeout(function() {
+		imgInsert(speakerAImgMap);
+	}, 500);
 });
+function imgInsert(imgMap) {
+	$.each(imgMap, function(id, imgUri) {
+		$('#img-' + id.replace('.', '\\.')).attr('src', imgUri);
+	});
+}
 function initialize() {
     var styles = [
                   {
