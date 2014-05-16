@@ -9,52 +9,52 @@ $(document).ready(function() {
         $.fn.css = $.fn.cssOriginal;
     }
 
-    $('.fullwidthbanner').revolution({    
-        delay: 9000,                                                
-        startheight: 800,                            
+    $('.fullwidthbanner').revolution({
+        delay: 9000,
+        startheight: 800,
         startwidth: 1170,
-        
+
         hideThumbs:200,
-        
-        thumbWidth:100,                            
+
+        thumbWidth:100,
         thumbHeight:50,
         thumbAmount:5,
-        
-       navigationType:"bullet",               
-       navigationArrows:"nexttobullets",      
-       navigationStyle:"round",               
-                                    
-       navigationHAlign:"center",             
-       navigationVAlign:"bottom",                 
+
+       navigationType:"bullet",
+       navigationArrows:"nexttobullets",
+       navigationStyle:"round",
+
+       navigationHAlign:"center",
+       navigationVAlign:"bottom",
        navigationHOffset: 0,
        navigationVOffset: 50,
-        
+
        soloArrowLeftHalign:"left",
        soloArrowLeftValign:"center",
        soloArrowLeftHOffset:20,
        soloArrowLeftVOffset:0,
-        
+
        soloArrowRightHalign:"right",
        soloArrowRightValign:"center",
        soloArrowRightHOffset:20,
        soloArrowRightVOffset:0,
-        touchenabled:"on",                      
-        onHoverStop:"on",                        
-        
+        touchenabled:"on",
+        onHoverStop:"on",
+
         navOffsetHorizontal:0,
         navOffsetVertical:20,
-        
+
         hideCaptionAtLimit:0,
         hideAllCaptionAtLilmit:0,
         hideSliderAtLimit:0,
-        
+
         stopAtSlide:-1,
-        stopAfterLoops:-1,    
+        stopAfterLoops:-1,
         shadow: 0,
-        fullWidth: 'off'    
+        fullWidth: 'off'
     });
 
-    
+
     $('.parallax-first').parallax("50%", 0.05);
     $('.parallax-second').parallax("50%", 0.05);
     $('.parallax-third').parallax("50%", 0.05);
@@ -62,7 +62,7 @@ $(document).ready(function() {
 	$('a[data-toggle="tab"]').on('shown', function (e) {});
 
 	$('input, textarea').placeholder();
-	
+
 	$('.cycle-slideshow-main').cycle({
 		fx: 'scrollHorz',
 		timeout: 40000,
@@ -80,14 +80,14 @@ $(document).ready(function() {
 		timeout: 4000,
 		slides: '.slide'
 	});
-	
+
 	$('.cycle-slideshow-vertical').cycle({
 		fx: 'scrollVert',
 		timeout: 8000,
 		slides: '.slide',
         pager: '.cycle-vertical-pager'
 	});
-	
+
 	$('.navigation .nav a[href^="#"], a[href^="#"].roll').on('click',function (e) {
 	    e.preventDefault();
 
@@ -112,31 +112,6 @@ $(document).ready(function() {
         }
     });
 
-    var styles = [
-        {
-        }
-    ];
-    var styledMapType = new google.maps.StyledMapType(styles, { name: 'Styled' });
-    var latLng = new google.maps.LatLng(37.5670435, 126.9839249);
-    var options = {
-        center: latLng,
-        scrollwheel: false,        
-        zoom: 17,
-        disableDefaultUI: true,
-        mapTypeControlOptions: {
-            mapTypeIds: [google.maps.MapTypeId.ROADMAP, 'Styled']
-        }
-    };
-    var map = new google.maps.Map(document.getElementById('map'), options);
-    map.mapTypes.set('Styled', styledMapType);
-    map.setMapTypeId('Styled');
-
-    new google.maps.Marker({
-        position: latLng,
-        title: "afkn",
-        map: map
-    });
-
     $('form.contact-form').submit(function(e) {
         e.preventDefault();
 
@@ -152,4 +127,43 @@ $(document).ready(function() {
             }
         });
     });
+
+	(function() {
+		if ( $('#googleMap').length == 0 ) {
+		    var script = document.createElement("script");
+		    script.src = "https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false&callback=initialize";
+		    script.type = "text/javascript";
+		    script.id = "googleMap";
+		    $("head")[0].appendChild(script);
+		}
+		else {
+		    initialize();
+		}
+	})();
 });
+function initialize() {
+    var styles = [
+                  {
+                  }
+              ];
+    var styledMapType = new google.maps.StyledMapType(styles, { name: 'Styled' });
+    var latLng = new google.maps.LatLng(37.5670435, 126.9839249);
+    var options = {
+        center: latLng,
+        scrollwheel: false,
+        zoom: 17,
+        disableDefaultUI: true,
+        mapTypeControlOptions: {
+            mapTypeIds: [google.maps.MapTypeId.ROADMAP, 'Styled']
+        }
+    };
+    var map = new google.maps.Map(document.getElementById('map'), options);
+    map.mapTypes.set('Styled', styledMapType);
+    map.setMapTypeId('Styled');
+
+    new google.maps.Marker({
+        position: latLng,
+        title: "afkn",
+        map: map
+    });
+}
