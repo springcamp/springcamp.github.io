@@ -22,7 +22,7 @@ var speakerAImgMap = {
 		// 정상혁
 		'benelog':'assets/profile/benelog@gmail.com.png',
 		// 강규영
-		'kangkyuyoung':'assets/profile/noprofile.png',
+		'kangkyuyoung':'assets/profile/jania902@gmail.com.png',
 		// 안영회
 		'ahnyounghoe':'assets/profile/ahnyounghoe@gmail.com.png',
 		// 박찬욱
