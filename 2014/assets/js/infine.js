@@ -1,26 +1,28 @@
 var speakerAImgMap = {
+        // 박용권
+        'arawn':'assets/profile/arawn.jpg',
 		// 정성용
 		'bungubbang57':'assets/profile/bungubbang57@gmail.com.png',
-		// 최윤석
-		'ethdemor':'assets/profile/ethdemor@gmail.com.png',
-		// 김제준
-		'dosajun':'assets/profile/dosajun@gmail.com.png',
 		// 정용식
 		'sunphiz':'assets/profile/sunphiz@gmail.com.png',
-		// 강대권
-		'daekwon.kang':'assets/profile/daekwon.kang@gmail.com.png',
 		// 최용은
 		'choiye84':'assets/profile/choiye84@gmail.com.png',
 		// 김강우
-		'kangwoo':'assets/profile/kangwoo@gmail.com.png'
+		'kangwoo':'assets/profile/kangwoo@gmail.com.png',
+        // 박성철
+        'gyumee':'assets/profile/gyumee@gmail.com.png',
+        // 이연복
+        'lyb1495':'assets/profile/lyb1495@helloworlds.co.kr.png',
+        // 정상혁
+        'benelog':'assets/profile/benelog@gmail.com.png'
 	},
 	speakerBImgMap = {
-		// 박성철
-		'gyumee':'assets/profile/gyumee@gmail.com.png',
-		// 이연복
-		'lyb1495':'assets/profile/lyb1495@helloworlds.co.kr.png',
-		// 정상혁
-		'benelog':'assets/profile/benelog@gmail.com.png',
+        // 최윤석
+        'ethdemor':'assets/profile/ethdemor@gmail.com.png',
+        // 김제준
+        'dosajun':'assets/profile/dosajun@gmail.com.png',        
+        // 강대권
+        'daekwon.kang':'assets/profile/daekwon.kang@gmail.com.png',		
 		// 강규영
 		'kangkyuyoung':'assets/profile/jania902@gmail.com.png',
 		// 안영회
