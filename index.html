@@ -1,7 +1,201 @@
 <!DOCTYPE html>
-<html>
+<html lang="ko">
 <head>
-  <meta http-equiv="REFRESH" content="1; URL=/2014"/>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    
+    <title>스프링 캠프</title>
+
+    <!-- Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
+    <link href="components/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
+
+    <!-- Custom CSS -->
+    <link href="assets/css/freelancer.css" rel="stylesheet"/>
+
+    <!-- Custom Fonts -->
+    <link href="components/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css"/>
+    <link href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css"/>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
 </head>
-<body/>
+
+<body id="page-top" class="index">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#page-top">Spring Camp</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#about">About</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#event">Event</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <img class="img-responsive" src="assets/img/profile.png" alt="">
+                    <!-- <div class="intro-text">
+                        <span class="skills">개발자들이 인연을 만들고 가치있는 기술을 공유하는 즐거운 축제 같은 컨퍼런스</span>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section class="success" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>스프링 캠프란!?</h2>
+                    <hr class="star-light">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-lg-offset-2">
+                    <p>애플리케이션 서버 개발자들과 함께 가치있는 기술에 관한 정보과 경험을 `공유`하고, 참가한 사람들과 함께 `인연`을 만들고, 시끌벅적하게 즐길 수 있는 개발자들을 위한 '축제'를 목표로 하는 컨퍼런스입니다.</p>
+                    <p>`우리는 개발자다`라는 동질감을 가지고 함께 성장할 수 있는 `개발자들을 위한 컨퍼런스`. 우리 선조들이 `품앗이`를 통해서 부족한 일손을 거들며 함께 농사를 지어가던 것처럼 서로의 지식을 공유하면서 부족함을 채우고 함께 성장하며 앞으로 나아가고자 합니다.</p>
+                </div>
+                <div class="col-lg-4">
+                    <p>빠르게 변화하는 '기술의 흐름' 속에서 누군가에게 도움을 줄 수 있는 기술에 관한 '가치있는 정보와 경험'을 공유합니다. 단순한 기술의 소개가 아닌, 기술을 사용하면서 겪은 시행착오나 활용 방법 등의 '살아있는! 가치있는! 정보와 경험'을 공유하는 것을 목표로 하고 있습니다.</p>
+                    <p>우리는 같은 일을 하고, 같은 관심사를 가졌지만 서로를 모릅니다. 컨퍼런스에 찾아온 낯선 개발자들 사이에서 나를 소개하고 이야기를 나누고 웃고 즐기며면서 어색함을 떨쳐내는 `새로운 인연의 고리를 연결하고 이어갈 수 있는 순간`으로 만들어가려 합니다.</p>
+                </div>
+            </div>
+        </div>
+    </section>    
+
+    <!-- Event Grid Section -->
+    <section id="event">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>event</h2>
+                    <hr class="star-primary">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4 event-item">
+                    <a href="/2013" class="event-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">Spring Camp 2013 with Scala</div>
+                        </div>
+                        <img src="assets/img/event/2013.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 event-item">
+                    <a href="/2014" class="event-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">Spring Camp 2014</div>
+                        </div>
+                        <img src="assets/img/event/2014.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center">
+        <div class="footer-above">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col col-md-4">
+                        <h3></h3>
+                        <p></p>
+                    </div>
+                    <div class="footer-col col-md-4">
+                        <h3>Around the Web</h3>
+                        <ul class="list-inline">
+                            <li>
+                                <a href="https://www.facebook.com/springcampkr" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://twitter.com/springcampkr" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
+                            </li>                            
+                            <!--
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-google-plus"></i></a>
+                            </li>
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
+                            </li>
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-dribbble"></i></a>
+                            </li>
+                            -->
+                        </ul>
+                    </div>
+                    <div class="footer-col col-md-4">
+                        <h3></h3>
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-below">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        Copyright &copy; Spring Camp 2014
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+    <div class="scroll-top page-scroll visible-xs visble-sm">
+        <a class="btn btn-primary" href="#page-top">
+            <i class="fa fa-chevron-up"></i>
+        </a>
+    </div>
+
+    <!-- jQuery -->
+    <script src="components/jquery/js/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="components/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="assets/js/classie.js"></script>
+    <script src="assets/js/cbpAnimatedHeader.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="assets/js/freelancer.js"></script>
+
+</body>
 </html>
