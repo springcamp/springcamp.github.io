@@ -26,7 +26,7 @@
 /* CORE CSS */
 
 @font-face {
-    font-family: 'sinkin_sans200_x_light';
+    font-family: 'av55,nb,'나눔고딕',NanumGothic,ng,'돋움',dotum,AppleGothic,sans-serif;';
     src: url('../fonts/SinkinSans-200XLight-webfont.eot');
     src: url('../fonts/SinkinSans-200XLight-webfont.eot?#iefix') format('embedded-opentype'),
          url('../fonts/SinkinSans-200XLight-webfont.woff') format('woff'),
@@ -44,6 +44,18 @@
          url('../fonts/SinkinSans-300Light-webfont.woff') format('woff'),
          url('../fonts/SinkinSans-300Light-webfont.ttf') format('truetype'),
          url('../fonts/SinkinSans-300Light-webfont.svg#sinkin_sans300_light') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'NanumGothic';
+    src: url('../fonts/NanumGothic.eot');
+    src: url('../fonts/NanumGothic.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/NanumGothic.woff') format('woff'),
+         url('../fonts/NanumGothic.ttf') format('truetype'),
+         url('../fonts/NanumGothic.svg#NanumGothic') format('svg');
     font-weight: normal;
     font-style: normal;
 
@@ -524,7 +536,7 @@ h4 {
 }
 
 #testimonial h4 {
-	font-family:'sinkin_sans700_bold';
+	font-family:'av55,nb,'나눔고딕',NanumGothic,ng,'돋움',dotum,AppleGothic,sans-serif;';
 	letter-spacing:1px;
 	margin:0;
 }
