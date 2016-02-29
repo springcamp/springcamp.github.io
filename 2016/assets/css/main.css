@@ -603,11 +603,19 @@ a:focus, a:hover{
     border: 1px solid #fff;
 }
 
+.lets {
+    background-color: #f8f8f8;
+}
+
+.location {
+    background-color: #f8f8f8;
+}
+
 /* 
  * 6.7 Section: Schedule
  */
 .partner {
-    background-color: #f8f8f8;
+    
 }
 .partner .partner-box {
     display: block;
