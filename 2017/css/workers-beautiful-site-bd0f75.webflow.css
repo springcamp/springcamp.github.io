@@ -782,6 +782,7 @@ a:hover {
 
 .program-tab-button.last {
   border-right: 1px none #000;
+  width: 24%;
 }
 
 .tab-button-title {
@@ -2000,6 +2001,9 @@ html.w-mod-js *[data-ix="slider-title-3"] {
     font-size: 7px;
     text-align: left;
   }
+  .program-tab-button {
+    width: 24.5%;
+  }
 }
 
 @media (max-width: 767px) {
@@ -2703,5 +2707,8 @@ html.w-mod-js *[data-ix="slider-title-3"] {
   }
   .logo-container {
     padding-left: 0px;
+  }
+  .program-tab-button.last {
+    width: 100%;
   }
 }
