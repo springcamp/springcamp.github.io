@@ -2161,6 +2161,8 @@ html.w-mod-js *[data-ix="slider-title-3"] {
     padding-top: 25px;
   }
   .program-tab-button {
+    border-right: 1px none #000;
+    border-bottom: 1px solid rgba(0, 0, 0, .1);
     padding-top: 13px;
     padding-right: 15px;
     padding-left: 15px;
@@ -2709,6 +2711,7 @@ html.w-mod-js *[data-ix="slider-title-3"] {
     padding-left: 0px;
   }
   .program-tab-button.last {
+    border-bottom: 1px none #000;
     width: 100%;
   }
 }
