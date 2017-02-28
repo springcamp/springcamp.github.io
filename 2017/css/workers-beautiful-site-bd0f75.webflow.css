@@ -365,6 +365,11 @@ a:hover {
   font-weight: 700;
 }
 
+.intro-info-title.location {
+  font-size: 16px;
+  margin-top: -8px;
+}
+
 .intro-info-title.subtitle {
   color: #b5b5b5;
   font-size: 13px;
@@ -1773,6 +1778,12 @@ html.w-mod-js *[data-ix="slider-title-3"] {
     margin-top: 4px;
     font-size: 13px;
   }
+
+  .intro-info-title.location {
+    font-size: 10px;
+    margin-top: -7px;
+  }
+
   .intro-info-title.subtitle {
     margin-top: 0px;
     font-size: 10px;
@@ -2109,6 +2120,7 @@ html.w-mod-js *[data-ix="slider-title-3"] {
   .intro-info-title {
     font-size: 16px;
   }
+
   .intro-info-title.subtitle {
     font-size: 12px;
     line-height: 16px;
@@ -2442,6 +2454,12 @@ html.w-mod-js *[data-ix="slider-title-3"] {
     font-size: 11px;
     line-height: 17px;
   }
+
+  .intro-info-title.location {
+    font-size: 10px;
+    margin-top: 4px;
+  }
+
   .intro-info-title.subtitle {
     font-size: 9px;
     line-height: 13px;
