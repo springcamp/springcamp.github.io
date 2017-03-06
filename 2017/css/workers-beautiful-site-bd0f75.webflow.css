@@ -2373,6 +2373,11 @@ html.w-mod-js *[data-ix="slider-title-3"] {
 }
 
 @media (max-width: 479px) {
+  .dynamic-sponsor-item img{
+    max-width: 70%;
+    padding-right: 0px;
+    padding-left: 0px;
+  }
   .text-logo {
     font-size: 22px;
     line-height: 23px;
