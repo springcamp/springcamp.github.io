@@ -751,9 +751,15 @@ a:hover {
   background-color: #34c48b;
   color: #fff;
 }
+.program-time-block.breaktime {
+  background-color: #ff8735;
+}
 
 .program-time-title {
   font-family: Montserrat, sans-serif;
+}
+.program-time-title.breaktime {
+  background-color: #ff8735;
 }
 
 .program-tabs-content {
