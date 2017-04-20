@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>Guest Cheker</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="css/bootstrap-theme.min.css" rel="stylesheet"/>
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery.qrcode.min.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
+</head>
+<body class="well">
+<h1>스프링캠프 2017 방문자 확인</h1>
+
+<div class="form-group">
+    <label><h3>이름 : </h3><blockquote>온오프믹스에 등록된 이름을 입력해 주세요. (영문의 경우 대소문자, 공백에 주의해 주세요.)</blockquote></label>
+    <input type="text" id="name" maxlength="10" class="form-control" placeholder="온오프믹스에 등록된 이름을 입력해 주세요."/>
+</div>
+<div class="form-group">
+    <label><h3>전화번호 : </h3><blockquote>숫자만 입력해 주세요.</blockquote></label>
+    <input type="tel" id="tel" class="form-control" placeholder="숫자만 입력해 주세요."/>
+</div>
+<button type="submit" class="btn btn-default" onclick="javascript:makeCode();">QR 생성</button>
+
+<div id="qrcode"></div>
+</body>
+</html>
