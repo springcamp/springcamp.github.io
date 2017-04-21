@@ -4,26 +4,185 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
-    <title>Guest Cheker</title>
+    <title>Attendee Check In</title>
+    
     <link href="css/bootstrap.min.css" rel="stylesheet"/>
     <link href="css/bootstrap-theme.min.css" rel="stylesheet"/>
+    <style type="text/css">
+        @import url(http://fonts.googleapis.com/earlyaccess/jejuhallasan.css);
+
+        html {
+            background:url(http://www.springcamp.io/2017/images/Photo-10.jpg) no-repeat;
+            background-size:cover;
+            height:100%;
+            background-color: #000;
+        }
+        * {
+            box-sizing:border-box;
+            -webkit-box-sizing:border-box;
+            -moz-box-sizing:border-box;
+            -webkit-font-smoothing:antialiased;
+            -moz-font-smoothing:antialiased;
+            -o-font-smoothing:antialiased;
+            font-smoothing:antialiased;
+            text-rendering:optimizeLegibility;
+        }
+        body {
+            color: #C0C0C0;
+            font-family: 'Hanna', serif;
+        }
+
+        h1 {
+            margin: 10px 0 0 0;
+        }
+        h4 {
+            margin: 0 0 20px 0;
+        }
+        #contact-form {
+            background-color:rgba(72,72,72,0.7);
+            padding: 10px 20px 30px 20px;
+            max-width:100%;
+            float: left;
+            left: 50%;
+            position: absolute;
+            margin-top:30px;
+            margin-left: -260px;
+            border-radius:7px;
+            -webkit-border-radius:7px;
+            -moz-border-radius:7px;
+        }
+        #contact-form input,   
+        #contact-form select,   
+        #contact-form textarea,   
+        #contact-form label { 
+            font-size: 15px;  
+            margin-bottom: 2px;
+            font-family: Arial, san-serif;
+        } 
+        #contact-form input,   
+        #contact-form select,   
+        #contact-form textarea { 
+            width:100%;
+            background: #fff;
+            border: 0; 
+            -moz-border-radius: 4px;  
+            -webkit-border-radius: 4px;  
+            border-radius: 4px;
+            margin-top: 5px;
+            margin-bottom: 25px;  
+            padding: 5px;  
+        }  
+        #contact-form input:focus,   
+        #contact-form select:focus,   
+        #contact-form textarea:focus {  
+            background-color: #E5E6E7; 
+        }  
+        #contact-form textarea {
+            width:100%;
+            height: 150px;
+        }
+        #contact-form button[type="button"] {
+            cursor:pointer;
+            width:100%;
+            border:none;
+            background:#991D57;
+            background-image:linear-gradient(bottom, #8C1C50 0%, #991D57 52%);
+            background-image:-moz-linear-gradient(bottom, #8C1C50 0%, #991D57 52%);
+            background-image:-webkit-linear-gradient(bottom, #8C1C50 0%, #991D57 52%);
+            color:#FFF;
+            margin:0 0 5px;
+            padding:10px;
+            border-radius:5px;
+        }
+        #contact-form button[type="button"]:hover {
+            background-image:linear-gradient(bottom, #9C215A 0%, #A82767 52%);
+            background-image:-moz-linear-gradient(bottom, #9C215A 0%, #A82767 52%);
+            background-image:-webkit-linear-gradient(bottom, #9C215A 0%, #A82767 52%);
+            -webkit-transition:background 0.3s ease-in-out;
+            -moz-transition:background 0.3s ease-in-out;
+            transition:background-color 0.3s ease-in-out;
+        }
+        #contact-form button[type="button"]:active {
+            box-shadow:inset 0 1px 3px rgba(0,0,0,0.5);
+        }
+        input:required, textarea:required {  
+            box-shadow: none;
+            -moz-box-shadow: none;  
+            -webkit-box-shadow: none;  
+            -o-box-shadow: none;  
+        } 
+        #contact-form .required {  
+            font-weight:bold;  
+            color: #E5E6E7;
+        }
+        #contact-form blockquote {
+            font-size: 0.8em;
+        }
+
+        #failure, #success {
+            color: #6EA070; 
+            display:none;  
+        }
+
+        @media only screen and (max-width: 580px) {
+            #contact-form{
+                left: 3%;
+                margin-right: 3%;
+                width: 88%;
+                margin-left: 0;
+                padding-left: 3%;
+                padding-right: 3%;
+            }
+        }
+    </style>
+    
     <script type="text/javascript" src="js/jquery.min.js"></script>
     <script type="text/javascript" src="js/jquery.qrcode.min.js"></script>
     <script type="text/javascript" src="js/app.js"></script>
 </head>
-<body class="well">
-<h1>스프링캠프 2017 방문자 확인</h1>
+<body>
+    <div id="contact-form">
+        <div>
+            <h1>스프링캠프 2017 참가등록</h1> 
+            <h4>참가자 정보를 작성 후 등록대에서 보여주세요.</h4> 
+        </div>
+        <form>
+            <div>
+                <label for="name">
+                    <span class="required">이름: *</span> 
+                    <input type="text" id="name" placeholder="온오프믹스에 등록된 이름을 입력해 주세요" required="required" tabindex="1" autofocus="autofocus"/>
+                    <blockquote>온오프믹스에 등록된 이름을 입력해 주세요.<br/>영문의 경우 대소문자, 공백에 주의해 주세요.</blockquote>
+		      </label>
+			</div>
+			<div>
+                <label for="email">
+		      	    <span class="required">전화번호: *</span>
+		      	    <input type="tel" id="tel" placeholder="온오프믹스에 등록한 전화번호를 입력해 주세요" tabindex="2" required="required"/>
+                    <blockquote>전화번호는 하이픈(-)을 제외한 숫자만 입력해주세요.</blockquote>
+		        </label>  
+            </div>
+            <div>		           
+                <button type="button" onclick="javascript:makeCode();">확인</button> 
+			</div>
+        </form>
+        <div class="text-center" style="margin-top: 20px;">
+            <div id="qrcode"></div>
+        </div>
+	</div>
 
-<div class="form-group">
-    <label><h3>이름 : </h3><blockquote>온오프믹스에 등록된 이름을 입력해 주세요. (영문의 경우 대소문자, 공백에 주의해 주세요.)</blockquote></label>
-    <input type="text" id="name" maxlength="10" class="form-control" placeholder="온오프믹스에 등록된 이름을 입력해 주세요."/>
-</div>
-<div class="form-group">
-    <label><h3>전화번호 : </h3><blockquote>숫자만 입력해 주세요.</blockquote></label>
-    <input type="tel" id="tel" class="form-control" placeholder="숫자만 입력해 주세요."/>
-</div>
-<button type="submit" class="btn btn-default" onclick="javascript:makeCode();">QR 생성</button>
+    <!--
+    <h1>스프링캠프 2017 참가등록</h1>
+    <div class="form-group">
+        <label><h3>이름 : </h3><blockquote>온오프믹스에 등록된 이름을 입력해 주세요. (영문의 경우 대소문자, 공백에 주의해 주세요.)</blockquote></label>
+        <input type="text" id="name" maxlength="10" class="form-control" placeholder="온오프믹스에 등록된 이름을 입력해 주세요."/>
+    </div>
+    <div class="form-group">
+        <label><h3>전화번호 : </h3><blockquote>숫자만 입력해 주세요.</blockquote></label>
+        <input type="tel" id="tel" class="form-control" placeholder="숫자만 입력해 주세요."/>
+    </div>
+    <button type="submit" class="btn btn-default" onclick="javascript:makeCode();">QR 생성</button>
+    <div id="qrcode"></div>
+    -->
 
-<div id="qrcode"></div>
 </body>
 </html>
