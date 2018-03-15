@@ -610,14 +610,14 @@ a {
 
 #venue .venue .venue-inner {
 	color:#b0b0b0;
-	background:rgba(0,0,0, 0.7);
+	/*background:rgba(0,0,0, 0.7);*/
 	display:table-cell;
 	vertical-align:middle;
 	
 }
 
 .venue-inner h2 {
-	color:#ffffff;
+	color:#000000;
 	margin-top:0;
 }
 
@@ -646,7 +646,7 @@ a {
 }
 
 .venue-inner h4 {
-	color:#ffffff;
+	color:#000000;
 }
 
 #venue i {
@@ -894,11 +894,13 @@ a {
 /* SPONSORS */
 
 #sponsors {
-	margin:30px 0;
+	background:rgba(0,0,0, 0.1);
 	padding:70px 0 90px 0;
 }
 
 .sponsor {
+
+	background:#ffffff;
 	border:2px solid #fac42b;
 	margin:0 5px;
 	padding:10px;
