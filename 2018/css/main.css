@@ -43,12 +43,14 @@ h1, h2, h3, h4, h5, h6 {
 
 h2 {
 	color:#262626;
-	font-family:'Nanum Gothic exBold';
+	font-family:'Nanum Gothic';
+	font-weight: 700;
 	font-size:40px;
 }
 
 h3 {
-	font-family:'Nanum Gothic Bold';
+	font-family:'Nanum Gothic';
+	font-weight: 700;
 	font-size:28px;
 	letter-spacing:-2px;
 	color:#262626;
@@ -56,13 +58,15 @@ h3 {
 }
 
 h4 {
-	font-family:'Nanum Gothic Bold';
+	font-family:'Nanum Gothic';
+	font-weight: 700;
 	font-size:18px;
 	letter-spacing:1px;
 }
 
 h5 {
 	font-family:'Nanum Gothic';
+	font-weight: 700;
 }
 
 section {
@@ -271,7 +275,8 @@ a {
 
 #countdown .countdown_amount {
 	color:#666666;
-	font-family:'Nanum Gothic Bold';
+	font-family:'Nanum Gothic';
+	font-weight: 700;
 	font-size:40px;
 	text-align:left;
 	line-height:50px;
@@ -307,7 +312,8 @@ a {
 }
 
 .speaker h4 {
-	font-family:'Nanum Gothic Bold';
+	font-family:'Nanum Gothic';
+	font-weight: 700;
 	font-size:16px;
 	letter-spacing:1px;
 	margin-bottom:0;
@@ -351,7 +357,8 @@ a {
 }
 
 #speaker-detail h2 {
-	font-family:'Nanum Gothic Bold';
+	font-family:'Nanum Gothic';
+	font-weight: 700;
 	margin-bottom:0;
 }
 
@@ -510,7 +517,8 @@ a {
 
 #program .date {
 	color:#000;
-	font-family:'Nanum Gothic Bold';
+	font-family:'Nanum Gothic';
+	font-weight: 700;
 	margin-bottom:0;
 	font-size:17px;
 	line-height:18px;
@@ -518,8 +526,9 @@ a {
 
 #program .speaker-name {
 	
-	font-family:'Nanum Gothic Bold';
-	font-size:14px;
+	font-family:'Nanum Gothic';
+	font-weight: 200;
+	font-size:30px;
 	letter-spacing:1px;
 }
 
@@ -592,6 +601,7 @@ a {
 
 #venue {
 	padding:0;
+	padding:70px 0;
 	/* padding-bottom:110px; */
 }
 
@@ -1035,7 +1045,8 @@ textarea {
 /* BUTTONS */
 
 .button {
-	font-family:'Nanum Gothic Bold';
+	font-family:'Nanum Gothic';
+	font-weight: 700;
 	font-size: 17px;
 	text-transform: uppercase;
 	border: none;
