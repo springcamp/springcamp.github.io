@@ -775,6 +775,7 @@ a {
 	font-weight:300;
 	position:relative;
 	overflow:hidden;
+	height: 250px;
 }
 
 .early-bird {
@@ -829,6 +830,11 @@ a {
 
 .price-table .desc li:last-child {
 	border-bottom:none;
+}
+
+.price-table .text {
+	font-family: 'Nanum Gothic';
+	line-height: 2;
 }
 
 /* register form */

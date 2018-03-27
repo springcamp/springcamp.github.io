@@ -185,7 +185,7 @@ jQuery(document).ready(function($) {
 			[1000, 3],
 			[1200, 3],
 		  ],
-		  pagination : false,
+		  pagination : true,
 		  navigation : true,
 		  navigationText : ['<i class="pe-4x pe-7s-angle-left pe-border"></i>','<i class="pe-4x  pe-7s-angle-right pe-border"></i>'],
 	  });
