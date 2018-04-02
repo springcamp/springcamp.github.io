@@ -206,7 +206,7 @@ jQuery(document).ready(function($) {
  
 	  owl.owlCarousel({
 		  
-		  autoPlay: false,
+		  autoPlay: true,
 		  itemsCustom : [
 			[0, 1],
 			[450, 1],
@@ -216,7 +216,7 @@ jQuery(document).ready(function($) {
 			[1200, 5],
 			[1600, 5]
 		  ],
-		  pagination : false,
+		  pagination : true,
 		  navigation : true,
 		  navigationText : ['<i class="pe-4x pe-7s-angle-left pe-border"></i>','<i class="pe-4x  pe-7s-angle-right pe-border"></i>'],
 	  });
