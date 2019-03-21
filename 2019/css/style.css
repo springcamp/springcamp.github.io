@@ -753,6 +753,11 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding: 60px 0;
 }
 
+#speakers-details p {
+  font-style: normal;
+  color: #000;
+}
+
 #speakers-details .details h2 {
   color: #112363;
   font-size: 28px;
@@ -884,11 +889,24 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #schedule .schedule-item p {
-  font-style: italic;
-  color: #152b79;
+  font-style: normal;
+  color: #333;
+  font-size: 14px;
   margin-bottom: 0;
 }
 
+#schedule .schedule-item .session-detail {
+  margin-bottom: 10px;
+}
+
+#schedule .schedule-item .speaker-detail {
+  margin-bottom: 0;
+}
+
+#schedule .schedule-item .speaker-detail p{
+  font-size: 12px;
+  color: #666;
+}
 /*--------------------------------------------------------------
 # Venue Section
 --------------------------------------------------------------*/
