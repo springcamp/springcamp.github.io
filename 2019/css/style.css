@@ -899,6 +899,15 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-bottom: 10px;
 }
 
+#schedule .schedule-item .session-detail ol, ul {
+  font-size: 14px;
+  color: #333;
+}
+
+#schedule .schedule-item .session-detail ul {
+  margin-top: 10px;
+}
+
 #schedule .schedule-item .speaker-detail {
   margin-bottom: 0;
 }
