@@ -1,22 +1,23 @@
 {
   "files": {
-    "main.css": "https://springcamp.ksug.org/2023/static/css/main.cc4d57ec.css",
-    "main.js": "https://springcamp.ksug.org/2023/static/js/main.bc9f821b.js",
+    "main.css": "https://springcamp.ksug.org/2023/static/css/main.ce6ceaf1.css",
+    "main.js": "https://springcamp.ksug.org/2023/static/js/main.6c19e618.js",
     "static/js/787.66689eab.chunk.js": "https://springcamp.ksug.org/2023/static/js/787.66689eab.chunk.js",
     "static/media/Pretendard-Regular.ttf": "https://springcamp.ksug.org/2023/static/media/Pretendard-Regular.7c20008ec8c0968904c4.ttf",
     "static/media/Pretendard-Bold.ttf": "https://springcamp.ksug.org/2023/static/media/Pretendard-Bold.3657cde72d6af8de8bfb.ttf",
     "static/media/map.png": "https://springcamp.ksug.org/2023/static/media/map.28b3ed27af65c14fb9c3.png",
     "static/media/speaker2.png": "https://springcamp.ksug.org/2023/static/media/speaker2.2dfe0a3768275a5b8d3b.png",
-    "static/media/speaker5.png": "https://springcamp.ksug.org/2023/static/media/speaker5.f6a9a2d5390269b48365.png",
+    "static/media/speaker3.png": "https://springcamp.ksug.org/2023/static/media/speaker3.17f0a8a0b0555d6f054f.png",
+    "static/media/speaker6.png": "https://springcamp.ksug.org/2023/static/media/speaker6.f6a9a2d5390269b48365.png",
     "static/media/speaker1.png": "https://springcamp.ksug.org/2023/static/media/speaker1.481dc75f8cc53aff4718.png",
     "static/media/roboto-all-500-normal.woff": "https://springcamp.ksug.org/2023/static/media/roboto-all-500-normal.0ab669b7a0d19b178f57.woff",
     "static/media/roboto-all-700-normal.woff": "https://springcamp.ksug.org/2023/static/media/roboto-all-700-normal.a457fde362a540fcadff.woff",
     "static/media/roboto-all-400-normal.woff": "https://springcamp.ksug.org/2023/static/media/roboto-all-400-normal.c5d001fa922fa66a147f.woff",
     "static/media/roboto-all-300-normal.woff": "https://springcamp.ksug.org/2023/static/media/roboto-all-300-normal.168d6383e73339293ac3.woff",
-    "static/media/speaker4.png": "https://springcamp.ksug.org/2023/static/media/speaker4.250b31353a0fbd3785fa.png",
-    "static/media/speaker6.png": "https://springcamp.ksug.org/2023/static/media/speaker6.5a322bb8d39f3641691f.png",
+    "static/media/speaker4.png": "https://springcamp.ksug.org/2023/static/media/speaker4.5856d578578a85556cfd.png",
+    "static/media/speaker5.png": "https://springcamp.ksug.org/2023/static/media/speaker5.250b31353a0fbd3785fa.png",
+    "static/media/speaker7.png": "https://springcamp.ksug.org/2023/static/media/speaker7.5a322bb8d39f3641691f.png",
     "static/media/knewave-all-400-normal.woff": "https://springcamp.ksug.org/2023/static/media/knewave-all-400-normal.2b067b1a46450e199a70.woff",
-    "static/media/speaker3.png": "https://springcamp.ksug.org/2023/static/media/speaker3.51b2d11dd0515b483888.png",
     "static/media/knewave-latin-400-normal.woff2": "https://springcamp.ksug.org/2023/static/media/knewave-latin-400-normal.d1420051a49223705b6c.woff2",
     "static/media/logo2.svg": "https://springcamp.ksug.org/2023/static/media/logo2.f94263aa44f5a43dad02a47186889a10.svg",
     "static/media/roboto-latin-500-normal.woff2": "https://springcamp.ksug.org/2023/static/media/roboto-latin-500-normal.f25d774ecfe0996f8eb5.woff2",
@@ -50,12 +51,12 @@
     "static/media/roboto-greek-ext-400-normal.woff2": "https://springcamp.ksug.org/2023/static/media/roboto-greek-ext-400-normal.169619821ea93019d1bb.woff2",
     "static/media/roboto-greek-ext-300-normal.woff2": "https://springcamp.ksug.org/2023/static/media/roboto-greek-ext-300-normal.35b9d6be04b95f0f0530.woff2",
     "static/media/roboto-greek-ext-700-normal.woff2": "https://springcamp.ksug.org/2023/static/media/roboto-greek-ext-700-normal.bd9854c751441ccc1a70.woff2",
-    "main.cc4d57ec.css.map": "https://springcamp.ksug.org/2023/static/css/main.cc4d57ec.css.map",
-    "main.bc9f821b.js.map": "https://springcamp.ksug.org/2023/static/js/main.bc9f821b.js.map",
+    "main.ce6ceaf1.css.map": "https://springcamp.ksug.org/2023/static/css/main.ce6ceaf1.css.map",
+    "main.6c19e618.js.map": "https://springcamp.ksug.org/2023/static/js/main.6c19e618.js.map",
     "787.66689eab.chunk.js.map": "https://springcamp.ksug.org/2023/static/js/787.66689eab.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cc4d57ec.css",
-    "static/js/main.bc9f821b.js"
+    "static/css/main.ce6ceaf1.css",
+    "static/js/main.6c19e618.js"
   ]
 }
