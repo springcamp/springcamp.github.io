@@ -1,0 +1,6 @@
+include:
+  - _next  
+  - _buildManifest.js 
+  - _ssgManifest.js  
+  - _app-408c9067bb944adf.js
+  - _error-116edebba08ef51a.js
