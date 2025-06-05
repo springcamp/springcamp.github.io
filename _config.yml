@@ -1,6 +1,9 @@
+# jekyll 에서 underscore(_) 로 시작하는 파일/폴더를 인식하지 못하는 이슈로, next의 빌드 파일을 포함하기 위한 장치
+# @see https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/about-github-pages-and-jekyll#configuring-jekyll-in-your-github-pages-site
+
 include:
   - _next  
-  - _buildManifest.js 
-  - _ssgManifest.js  
-  - _app-7850a9eab5090ee3.js
-  - _error-a9189ef8fe22843a.js
+  - _buildManifest.js
+  - _ssgManifest.js
+  - _app-408c9067bb944adf.js
+  - _error-116edebba08ef51a.js
