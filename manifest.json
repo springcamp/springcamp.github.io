@@ -1,0 +1,29 @@
+{
+  "name": "Spring Camp - 한국 스프링 사용자 모임",
+  "short_name": "Spring Camp",
+  "description": "한국 스프링 사용자 모임(KSUG)이 주최하는 연례 JVM 개발자 컨퍼런스",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#6db33f",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/spring-camp-logo.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/spring-camp-logo.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["technology", "education", "developer", "conference"],
+  "lang": "ko",
+  "scope": "/",
+  "related_applications": [],
+  "prefer_related_applications": false
+}
