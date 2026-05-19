@@ -3,6 +3,7 @@
 
 include:
   - _next  
+  - 2026/_next
   - _buildManifest.js
   - _ssgManifest.js
   - _app-7850a9eab5090ee3.js

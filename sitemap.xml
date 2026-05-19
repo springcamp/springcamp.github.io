@@ -6,7 +6,7 @@
   
   <!-- Homepage -->
   <url>
-    <loc>https://springcamp.io/</loc>
+    <loc>https://springcamp.ksug.org/</loc>
     <lastmod>2025-01-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
@@ -14,7 +14,7 @@
   
   <!-- Sponsors Page -->
   <url>
-    <loc>https://springcamp.io/sponsors</loc>
+    <loc>https://springcamp.ksug.org/sponsors</loc>
     <lastmod>2025-01-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -22,20 +22,69 @@
   
   <!-- Homepage Sections (for better indexing) -->
   <url>
-    <loc>https://springcamp.io/#about</loc>
+    <loc>https://springcamp.ksug.org/#about</loc>
     <lastmod>2025-01-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
-    <loc>https://springcamp.io/#events</loc>
+    <loc>https://springcamp.ksug.org/#events</loc>
     <lastmod>2025-01-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <!-- Historical Event Pages (external but related) -->
+  <url>
+    <loc>https://springcamp.ksug.org/2026/</loc>
+    <lastmod>2026-05-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://springcamp.ksug.org/2026/ko/</loc>
+    <lastmod>2026-05-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://springcamp.ksug.org/2026/ko/schedule/</loc>
+    <lastmod>2026-05-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://springcamp.ksug.org/2026/ko/speakers/</loc>
+    <lastmod>2026-05-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://springcamp.ksug.org/2026/en/</loc>
+    <lastmod>2026-05-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://springcamp.ksug.org/2026/en/schedule/</loc>
+    <lastmod>2026-05-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://springcamp.ksug.org/2026/en/speakers/</loc>
+    <lastmod>2026-05-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
   <url>
     <loc>https://springcamp.ksug.org/2025/</loc>
     <lastmod>2025-06-28</lastmod>
